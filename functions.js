@@ -1,9 +1,9 @@
-// Mathematical function, I guess two technically.
+// Mathematical function
 function currency(num) {
 	// Sets the amount to 2 decimal places to make it currency like.
 	return num.toFixed(2);
 }
-
+// Mathematical function, continued
 function feelRich(amount) {
 
 	let zimbabwe = `Z$${currency(amount * 30000)} Zimbabwean Dollars,`;

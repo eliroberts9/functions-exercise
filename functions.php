@@ -33,7 +33,7 @@ function alphabetical($arr) {
 
 	// Sorts the array in alphabetical order
 	sort($arr);
-	
+
 	// Echos each value in the array
 	foreach($arr as $key => $val) {
 		echo "$val, ";
