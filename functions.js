@@ -1,5 +1,6 @@
-// Mathematical function, I guess two technically.¥
+// Mathematical function, I guess two technically.
 function currency(num) {
+	// Rounds the amount to 2 decimal places to make it currency like.
 	let roundedAmount = Math.round(num * 100) / 100;
 	return roundedAmount;
 }
@@ -14,16 +15,20 @@ function feelRich(amount) {
 	return `You have: ${zimbabwe} ${yen} ${armenianDram} Of course, this means nothing.`;
 }
 
-//Example inputs
+// Example inputs
 console.log(feelRich(100));
 console.log(feelRich(2540.63));
 console.log(feelRich(34763.99));
 
 // String function
-function noMoreVowels(string) {
+function noVowels(string) {
+	// Converts the input string to lowercase, then uses a regular expression to replace all vowels with an empty string
 	return string.toLowerCase().replace(/[aeiou]/g, '');
 }
-
-console.log(noMoreVowels("The English language would be quite a bit more difficult to read without vowels.  It would " +
+// String example
+console.log(noVowels("The English language would be quite a bit more difficult to read without vowels.  It would " +
 	"sound kind of funny though."));
+
+// Array function
+
 
