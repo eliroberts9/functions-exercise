@@ -15,7 +15,9 @@ echo(feelRich(100));
 
 // String function
 function noVowels($string) {
+	// Array containing strings to search for
 	$vowels = array("a", "e", "i", "o", "u");
+	// Converts input string to lowercase so capitals aren't ignored.
 	$lowerCase = strtolower($string);
 	return str_replace($vowels, "", $lowerCase);
 }
@@ -27,7 +29,9 @@ kind of funny though.");
 $catNames = array("Jeff", "Captain FuzzyPants", "Carl", "Peanut", "Garfield", "Mister Whiskers");
 
 function alphabetical($arr) {
+	// Sorts the array in alphabetical order
 	sort($arr);
+	// Echos each value in the array
 	foreach($arr as $key => $val) {
 		echo "$val, ";
 	}
