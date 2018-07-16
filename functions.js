@@ -1,11 +1,11 @@
 // Mathematical function, I guess two technically.
 function currency(num) {
-	// Rounds the amount to 2 decimal places to make it currency like.
+	// Sets the amount to 2 decimal places to make it currency like.
 	return num.toFixed(2);
 }
 
 function feelRich(amount) {
-	
+
 	let zimbabwe = `Z$${currency(amount * 30000)} Zimbabwean Dollars,`;
 	let yen = `¥${currency(amount * 112.8)} Japanese Yen,`;
 	let armenianDram = `and ֏${currency(amount * 480.10)} Armenian Dram! Yowza!`;
