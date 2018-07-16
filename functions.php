@@ -16,10 +16,10 @@ echo(feelRich(100));
 // String function
 function noVowels($string) {
 	// Array containing strings to search for
-	$vowels = array("a", "e", "i", "o", "u");
+	$pattern = "/[aeiou]/i";
 	// Converts input string to lowercase so capitals aren't ignored.
 	$lowerCase = strtolower($string);
-	return str_replace($vowels, "", $lowerCase);
+	return preg_replace($pattern, "", $lowerCase);
 }
 
 echo noVowels("The English language would be quite a bit more difficult to read without vowels.  It would sound 
