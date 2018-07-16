@@ -14,8 +14,10 @@ echo(feelRich(100));
 
 // String function
 function noVowels($string) {
+
 	// Regular expression containing vowels to be removed
 	$pattern = "/[aeiou]/i";
+
 	// Converts input string to lowercase so capitals aren't ignored.
 	$lowerCase = strtolower($string);
 	return preg_replace($pattern, "", $lowerCase);
@@ -28,8 +30,10 @@ kind of funny though.");
 $catNames = array("Jeff", "Captain FuzzyPants", "Squishy Biscuits", "Carl", "Peanut", "Garfield", "Mister Whiskers");
 
 function alphabetical($arr) {
+
 	// Sorts the array in alphabetical order
 	sort($arr);
+	
 	// Echos each value in the array
 	foreach($arr as $key => $val) {
 		echo "$val, ";
