@@ -22,3 +22,15 @@ function noVowels($string) {
 
 echo noVowels("The English language would be quite a bit more difficult to read without vowels.  It would sound 
 kind of funny though.");
+
+// Array function
+$catNames = array("Jeff", "Captain FuzzyPants", "Carl", "Peanut", "Garfield", "Mister Whiskers");
+
+function alphabetical($arr) {
+	sort($arr);
+	foreach($arr as $key => $val) {
+		echo "$val, ";
+	}
+}
+
+alphabetical($catNames);
