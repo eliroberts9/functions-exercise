@@ -19,3 +19,11 @@ console.log(feelRich(100));
 console.log(feelRich(2540.63));
 console.log(feelRich(34763.99));
 
+// String function
+function noMoreVowels(string) {
+	return string.toLowerCase().replace(/[aeiou]/g, '');
+}
+
+console.log(noMoreVowels("The English language would be quite a bit more difficult to read without vowels.  It would " +
+	"sound kind of funny though."));
+
