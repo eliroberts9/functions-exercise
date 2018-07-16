@@ -1,8 +1,7 @@
 // Mathematical function, I guess two technically.
 function currency(num) {
 	// Rounds the amount to 2 decimal places to make it currency like.
-	let roundedAmount = Math.round(num * 100) / 100;
-	return roundedAmount;
+	return num.toFixed(2);
 }
 
 function feelRich(amount) {
