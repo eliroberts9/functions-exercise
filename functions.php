@@ -14,7 +14,7 @@ echo(feelRich(100));
 
 // String function
 function noVowels($string) {
-	// Array containing strings to search for
+	// Regular expression containing vowels to be removed
 	$pattern = "/[aeiou]/i";
 	// Converts input string to lowercase so capitals aren't ignored.
 	$lowerCase = strtolower($string);
