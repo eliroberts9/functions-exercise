@@ -5,11 +5,11 @@ function currency(num) {
 }
 
 function feelRich(amount) {
-	// Converts USD to Zimbabwean dollars
+	// Converts USD to Zimbabwean dollars and returns tepmlate string
 	let zimbabwe = `Z$${currency(amount * 30000)} Zimbabwean Dollars,`;
-	// Converts USD to Japanese yen
+	// Converts USD to Japanese yen and returns template string
 	let yen = `¥${currency(amount * 112.8)} Japanese Yen,`;
-	// Converts USD to Armenian Dram
+	// Converts USD to Armenian Dram and returns template string
 	let armenianDram = `and ֏${currency(amount * 480.10)} Armenian Dram! Yowza!`;
 	return `You have: ${zimbabwe} ${yen} ${armenianDram} Those are big numbers! Of course, they mean nothing.`;
 }
