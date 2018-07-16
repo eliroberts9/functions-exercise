@@ -1,12 +1,11 @@
 <?php
 // Mathematical function
 function feelRich($amount) {
-	// Converts USD to Zimbabwean dollars
+
 	$zimbabwe = money_format('%.2n', ($amount * 30000));
-	// Converts USD to Japanese yen
 	$yen = money_format('%.2n', ($amount * 112.8));
-	// Converts USD to Armenian Dram
 	$armenianDram = money_format('%.2n', ($amount * 480.10));
+
 	return "You have: Z\$$zimbabwe Zimbabwean Dollars, ¥$yen Japanese Yen, and 
 	֏$armenianDram Armenian Dram! Those are big numbers! Of course, they mean nothing.";
 }
