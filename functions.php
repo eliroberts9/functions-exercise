@@ -8,7 +8,7 @@ function feelRich($amount) {
 	// Converts USD to Armenian Dram
 	$armenianDram = money_format('%.2n', ($amount * 480.10));
 	return "You have: Z\$$zimbabwe Zimbabwean Dollars, ¥$yen Japanese Yen, and 
-	֏$armenianDram Armenian Dram! Of course, this means nothing.";
+	֏$armenianDram Armenian Dram! Those are big numbers! Of course, they mean nothing.";
 }
 
 echo(feelRich(100));

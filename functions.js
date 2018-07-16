@@ -11,7 +11,7 @@ function feelRich(amount) {
 	let yen = `¥${currency(amount * 112.8)} Japanese Yen,`;
 	// Converts USD to Armenian Dram
 	let armenianDram = `and ֏${currency(amount * 480.10)} Armenian Dram! Yowza!`;
-	return `You have: ${zimbabwe} ${yen} ${armenianDram} Of course, this means nothing.`;
+	return `You have: ${zimbabwe} ${yen} ${armenianDram} Those are big numbers! Of course, they mean nothing.`;
 }
 
 // Example inputs
