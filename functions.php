@@ -14,3 +14,11 @@ function feelRich($amount) {
 echo(feelRich(100));
 
 // String function
+function noVowels($string) {
+	$vowels = array("a", "e", "i", "o", "u");
+	$lowerCase = strtolower($string);
+	return str_replace($vowels, "", $lowerCase);
+}
+
+echo noVowels("The English language would be quite a bit more difficult to read without vowels.  It would sound 
+kind of funny though.");
