@@ -29,7 +29,7 @@ console.log(noVowels("The English language would be quite a bit more difficult t
 	"sound kind of funny though."));
 
 // Array function
-let catNames = ["Jeff", "Captain FuzzyPants", "Carl", "Peanut", "Garfield", "Mister Whiskers"];
+let catNames = ["Jeff", "Captain FuzzyPants","Squishy Biscuits", "Carl", "Peanut", "Garfield", "Mister Whiskers"];
 
 function alphabetical(arr) {
 	return arr.sort();

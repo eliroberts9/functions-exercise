@@ -26,7 +26,7 @@ echo noVowels("The English language would be quite a bit more difficult to read 
 kind of funny though.");
 
 // Array function
-$catNames = array("Jeff", "Captain FuzzyPants", "Carl", "Peanut", "Garfield", "Mister Whiskers");
+$catNames = array("Jeff", "Captain FuzzyPants", "Squishy Biscuits", "Carl", "Peanut", "Garfield", "Mister Whiskers");
 
 function alphabetical($arr) {
 	// Sorts the array in alphabetical order
